@@ -23,9 +23,10 @@ INSTALLED_APPS = (
     'dbindexer',
     'aos',
     'guestbook',
-
+    'dateutil',
     # djangoappengine should come last, so it can override a few manage.py commands
     'djangoappengine',
+    'tastypie',
 )
 
 MIDDLEWARE_CLASSES = (
